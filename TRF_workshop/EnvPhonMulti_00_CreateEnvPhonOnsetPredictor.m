@@ -51,7 +51,7 @@ end
 
 clear n;           
 
-%% 3. Create matrix of env + phoneme onset predictors
+%% 3. Create matrix with env + phoneme onset predictors
 
 for subj=1:length(Subjects)
     
