@@ -133,7 +133,7 @@ clear eeg EEGs AudioEnvPhonSp AudioFeatureSp
 
  end
 
-%%  %[3] Plot the result of cross-val across participants
+%% Plot the result of cross-val across participants
             [M_mse,I_mse] = min(mean(mse_mean_SpFeature_subj));        
             [M_r,I_r] = max(mean(r_mean_SpFeature_subj));
                     
