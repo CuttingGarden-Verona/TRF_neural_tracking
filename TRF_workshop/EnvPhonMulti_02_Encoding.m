@@ -56,7 +56,7 @@ ModDir = 1;   %"1" = encoding; "-1" = decoding
 %best regularization parameter previously estimated using the cross-validation
 scalp_lambda=100;                                                
 
-%% Speech/EEG processing
+%% Speech-EEG Encoding model
 
 for cond=1:NoConditions
     
