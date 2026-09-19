@@ -43,7 +43,7 @@ load([WRKPATH, '/EncodResults/EnvModel_Uni_Subj_all_N5_lambda_100_-100_600_TRF.m
 %load([WRKPATH, '/EncodResults/EnvPhonMulti_Subj_all_N5_lambda_100_-100_600_TRF.mat'])
 
 
-%% Plot TRF weigths and accuracy at each tlag window
+%% Plot TRF weigths at each tlag window
 
 for cond = 1: NoConditions
     
